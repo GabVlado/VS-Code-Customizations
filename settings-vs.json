@@ -1,0 +1,44 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "bracketPairColorizer.depreciation-notice": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "onWindowChange",
+    "terminal.integrated.fontFamily": "MesloLGS NF, consolas",
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.colorCustomizations": {
+        "terminal.ansiGreen": "#05da28",
+        "terminal.ansiBrightGreen": "#3bdd12"
+
+    },
+    "editor.tokenColorCustomizations":{
+        "textMateRules": [
+            {
+                "scope": "support.type.property-name.json.comments",
+                "settings":{
+                    "foreground":"#fffdfd"
+                }
+            },
+            {
+                "scope": "source.json meta.structure.dictionary.value string , string.quoted.double.json.comments",
+                "settings": {
+                    "foreground": "#FCE566"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#43eb10"
+                }
+            },
+            {
+                "scope": "variable.parameter",
+                "settings": {
+                    "foreground": "#ff9f20"
+                }
+            }
+
+        ]
+    }
+
+}
