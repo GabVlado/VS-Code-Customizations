@@ -1,16 +1,13 @@
 {
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "bracketPairColorizer.depreciation-notice": false,
-    "workbench.iconTheme": "material-icon-theme",
-    "files.autoSave": "onWindowChange",
     "terminal.integrated.fontFamily": "MesloLGS NF, consolas",
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     "workbench.colorCustomizations": {
         "terminal.ansiGreen": "#05da28",
         "terminal.ansiBrightGreen": "#3bdd12"
 
     },
+    "workbench.iconTheme": "material-icon-theme",
     "editor.tokenColorCustomizations":{
         "textMateRules": [
             {
@@ -36,9 +33,24 @@
                 "settings": {
                     "foreground": "#ff9f20"
                 }
+            },
+            {
+                "scope":"entity.name.type",
+                "settings": {
+                    "foreground": "#0A84FF",
+                }
             }
 
         ]
-    }
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "bracketPairColorizer.depreciation-notice": false,
+    "emmet.includeLanguages": {
+        "erb": "html",
+        "javascript": "javascriptreact"
+    },
+    "terminal.integrated.cursorStyle": "line",
+    "explorer.compactFolders": false,
+    "workbench.colorTheme": "Monokai Pro New"
 
 }
